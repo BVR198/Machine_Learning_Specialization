@@ -1,4 +1,4 @@
-## Machine-Learning-Consepts
+## Machine-Learning-Concepts
 
 ### One-Hot Encoding
 The Main purpose is to make easy for Machine Learning Algorithms beacause machine can understand only numerical values
