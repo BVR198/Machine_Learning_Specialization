@@ -1,26 +1,26 @@
 ## Machine-Learning-Concepts
 
-### `One-Hot Encoding`
+## `One-Hot Encoding`
 The Main purpose is to make easy for Machine Learning Algorithms beacause machine can understand only numerical values
 One-hot Encoding is a technique used in Machine learning and data preprocessing to convert the `categorical` variables into `Numerical` variables (Binary numbers) 0s and 1s, where each category becomes a seperate binary feature. Each seperated features represents the presence(1) or obsence(0) of the particular category
 
-### `Feature Engineering`
+## `Feature Engineering`
 Feature Engineering is the process of `Creating new features` using the existing one or `Modifying the existing features` of the dataset to `improve the performance of a machine learning model` 
 
 
-### `Outliers`
+## `Outliers`
 Before looking for `Outliers`, Let us first address the quetions like:
-##### What are Outliers abd Why do we need to remove them ? 
+#### What are Outliers abd Why do we need to remove them ? 
 
 `Outliers` are Nothing, But the points that are significatlty different from the majority of the data in a dataset. They can be usually high or low values that deviates from majority of the data distributionn. Now the second question is Why do we need to remove the outliers ? We need to remove the Outliers beacuase they can significantly influence the statistical measures like `Mean` and `Standard Deciation`. As we all know that the Mean is calculated by summingup all the values in the dataset and dividing by the total number of values. Outliers contribution is also there in calculation of the mean . `if there are high outliers, the mean tend to be higher than the  central tendency of the majority of the data`. Conversly, if there are lower outliers, the mean tends to be loewr than the central tendency of the majority of the data. `Standard Deviation` measures the amount of dispersion in the dataset . Outliers can increase the standard deviation because they contribute to greater variability.leading to an inflated standard deviation
 
-##### How Can we Identify the Potenstial Outliers from the box plots ?
+#### How Can we Identify the Potenstial Outliers from the box plots ?
 
 In a boxplot, outliers are often identified based on their position relative to the "whiskers" of the box. The whiskers extend from the box to indicate the range of the data, and points beyond a certain distance from the box are considered potential outliers.
 
 Here's how outliers are typically identified in a boxplot:
 
-##### Interquartile Range (IQR) Method:
+#### Interquartile Range (IQR) Method:
 
 The box in the boxplot represents the interquartile range (IQR), which is the range between the first quartile (Q1) and the third quartile (Q3).
 The whiskers extend from the box to a certain distance, usually 1.5 times the IQR.
@@ -47,7 +47,7 @@ Here's a breakdown of the components in a boxplot:
 Synthetic Minority Over-sampling Technique is a sampling technique designed to address the issue of `Class Imbalance` in machine learning datasets.
 Objective : The main ojectuve of this sampling technique is to balance the class distribution by generating the synthetic samples for the minority class ( The class having less number of samples )
 Now the Question is 
-##### What is the Class imbalance and Why do we need to balance classes in the target variable ?
+#### What is the Class imbalance and Why do we need to balance classes in the target variable ?
 Class Imbalance is a situation where the distribution of class in target variable is NOT equal. In simple words, The number of the data points of one class in target variable less or more than the number of data points of other class. 
 
 For Instance, let us consider a Binary classification problem where we need to predict an email is SPAM or NOT SPAM. if we have 90% NOT SPAM emails and 10% SPAM emails in the target variable of the dataset then we can say that it is a problems of Class Imbalance. NOTE : Here, SPAM is one class and NOT SPAM is another class.
