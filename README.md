@@ -44,6 +44,9 @@ Here's a breakdown of the components in a boxplot:
 `Outliers`: Individual data points beyond the whiskers are plotted as individual points.
 
 ### Synthetic Minority Over-sampling Technique ( SMOTE )
+Synthetic Minority Over-sampling Technique is a sampling technique designed to address the issue of `Class Imbalance` in Machine Learning
+
+
 
 
 
