@@ -42,3 +42,11 @@ Here's a breakdown of the components in a boxplot:
 `Whiskers`: Extend from the box to the smallest and largest values within the "whisker length" from the quartiles. Points beyond the whiskers are considered potential outliers.
 
 `Outliers`: Individual data points beyond the whiskers are plotted as individual points.
+
+### Synthetic Minority Over-sampling Technique ( SMOTE )
+
+
+
+
+
+
