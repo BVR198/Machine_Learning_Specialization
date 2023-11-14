@@ -44,10 +44,17 @@ Here's a breakdown of the components in a boxplot:
 `Outliers`: Individual data points beyond the whiskers are plotted as individual points.
 
 ### Synthetic Minority Over-sampling Technique ( SMOTE )
-Synthetic Minority Over-sampling Technique is a sampling technique designed to address the issue of `Class Imbalance` in Machine Learning
+Synthetic Minority Over-sampling Technique is a sampling technique designed to address the issue of `Class Imbalance` in machine learning datasets.
+Objective : The main ojectuve of this sampling technique is to balance the class distribution by generating the synthetic samples for the minority class ( The class having less number of samples )
 
+Now the Question is 
+##### What is the Class imbalance and Why do we need to balance classes in the target variable ?
+Class Imbalance is a situation where the distribution of class in target variable is NOT equal. In simple words, The number of the data points of one class in target variable less or more than the number of data points of other class. 
 
+For Instance, let us consider a Binary classification problem where we need to predict an email is SPAM or NOT SPAM. if we have 90% NOT SPAM emails and 10% SPAM emails in the target variable of the dataset then we can say that it is a problems of Class Imbalance. NOTE : Here, SPAM is one class and NOT SPAM is another class.
 
+When we train the machine learning model with this Class Imbalance dataset, `Model tends to be more biased towards the majority class`. `The model may NOT perform on minority class` which leads to `Overfitting` with `High Accuracy`. 
+So, that is the reason for Why do we need to address the class imbalance in datasets.
 
 
 
