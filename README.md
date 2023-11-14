@@ -53,6 +53,7 @@ Class Imbalance is a situation where the distribution of class in target variabl
 For Instance, let us consider a Binary classification problem where we need to predict an email is SPAM or NOT SPAM. if we have 90% NOT SPAM emails and 10% SPAM emails in the target variable of the dataset then we can say that it is a problems of Class Imbalance. NOTE : Here, SPAM is one class and NOT SPAM is another class.
 
 When we train the machine learning model with this Class Imbalance dataset, `Model tends to be more biased towards the majority class`. `The model may NOT perform on minority class` which leads to `Overfitting` with `High Accuracy`. 
+
 So, that is the reason for Why do we need to address the class imbalance in datasets.
 
 
