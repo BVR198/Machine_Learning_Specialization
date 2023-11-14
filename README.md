@@ -20,7 +20,7 @@ In a boxplot, outliers are often identified based on their position relative to 
 
 Here's how outliers are typically identified in a boxplot:
 
-#### Interquartile Range (IQR) Method:
+#### `Interquartile Range (IQR) Method`:
 
 The box in the boxplot represents the interquartile range (IQR), which is the range between the first quartile (Q1) and the third quartile (Q3).
 The whiskers extend from the box to a certain distance, usually 1.5 times the IQR.
@@ -28,9 +28,9 @@ Any data points beyond the whiskers are considered potential outliers.
 
 Outlier Calculation:
 
-Lower Bound: Q1−1.5×IQR
+Lower Bound = Q1−1.5×IQR
 
-Upper Bound: Q3+1.5×IQR
+Upper Bound = Q3+1.5×IQR
 
 Identification:
 
