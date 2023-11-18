@@ -22,7 +22,7 @@ $$ b = b - \alpha\frac{\partial J(w,b)}{\partial b}$$
 
 
 
-Here,Gradient term represents the `Magnitude` and `Direction`, Where as $\alpha$   is `Learning Rate` Which is Hyperparameter determins the size of the step that we need to take during each iteration in order to get minima of the cost function
+Here,Gradient term represents the `Magnitude` and `Direction`. Basically, `it tells us How to chnge the parameters w, b to reduce the cost` .Where as $\alpha$   is `Learning Rate` Which is Hyperparameter determins the size of the step that we need to take during each iteration in order to get minima of the cost function
 - Laregr leaning rate : A larger learning rate can cause the algorithm to `Converge more quickly`, but it `Oversoot` the minimum value of the cost function
 - Smallar learning rate : on other hand , a smaller learning rate may `Converge more slowly` but `potentially more precision` 
 
