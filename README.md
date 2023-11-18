@@ -1,5 +1,11 @@
 ## Machine-Learning-Concepts
 
+## `Gradient Discent Algorithm`
+- It is an optimization algorithm used in not only Machine learning but also in the Deep learning to `minimize the error ( cost function or loss function )` associated with the  model tha we are trained. it is a technique used for finding the best model's parameters Wieghts and Biases in order to reduce ( minimize ) the cost function or loss function.
+-  ### How does this Work, I mean What is the acual work behind the Gradient Discent Algorithm ?
+   Let us train the model with the Linear function f(x) for Linear Regression problem,
+      f(x) = wx + b 
+   
 ## `One-Hot Encoding`
 The Main purpose is to make easy for Machine Learning Algorithms beacause machine can understand only numerical values
 One-hot Encoding is a technique used in Machine learning and data preprocessing to convert the `categorical` variables into `Numerical` variables (Binary numbers) 0s and 1s, where each category becomes a seperate binary feature. Each seperated features represents the presence(1) or obsence(0) of the particular category
