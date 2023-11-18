@@ -5,7 +5,7 @@
 -  ### How does this Work, I mean What is the acual work behind the Gradient Discent Algorithm ?
    Let us train the model with the Linear function f(x[i]) for Linear Regression problem,
    
- $f(x^{(i)}) = wx^{(i)} + b$$
+ $$f(x^{(i)}) = wx^{(i)} + b$$
 
 
 ## `One-Hot Encoding`
