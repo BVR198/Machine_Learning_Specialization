@@ -4,7 +4,7 @@
 - It is an optimization algorithm used in not only Machine learning but also in the Deep learning to `minimize the error ( cost function or loss function )` associated with the  model tha we are trained. it is a technique used for finding the best model's parameters Wieghts and Biases in order to reduce ( minimize ) the cost function or loss function.
 -  ### How does this Work, I mean What is the acual work behind the Gradient Discent Algorithm ?
    Let us train the model with the Linear function f(x[i]) for Linear Regression problem,
-      $f(x[i]) = wx[i] + b$
+      $$ f(x[i]) = wx[i] + b $$
    
 ## `One-Hot Encoding`
 The Main purpose is to make easy for Machine Learning Algorithms beacause machine can understand only numerical values
