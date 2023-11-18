@@ -18,9 +18,7 @@ updating the vales of the parameter w, b using the mathematical equation :
 
 $$ w = w - \alpha\frac{\partial J(w,b)}{\partial w}$$
 
-$$ b = b - \alpha\frac{\partial J(w,b)}{\partial b}$$
-
-$$where \alpha is small possitive number$$
+$$ b = b - \alpha\frac{\partial J(w,b)}{\partial b}$$, where \alpha is small possitive number
 
 
 ## `One-Hot Encoding`
