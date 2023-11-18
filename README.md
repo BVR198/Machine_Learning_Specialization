@@ -14,6 +14,12 @@
  
 Now, Our main objective is to find the best values of (w,b) such that the value of the cost function $J(w,b)$ will be minimum. In this Algorithm what we are doing is , we are changing the values of w, b untill we get the minimum value of the $J(w,b)$
 
+updating the vales of the parameter w, b using the mathematical equation :
+
+$$ w = w - \alpha\frac{\partial J(w,b)}{\partial w}$$
+
+$$ b = b - \alpha\frac{\partial J(w,b)}{\partial b}$$
+
 ## `One-Hot Encoding`
 
 The Main purpose is to make easy for Machine Learning Algorithms beacause machine can understand only numerical values
