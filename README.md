@@ -14,11 +14,14 @@
  
 Now, Our main objective is to find the best values of (w,b) such that the value of the cost function $J(w,b)$ will be minimum. In this Algorithm what we are doing is , we are changing the values of w, b untill we get the minimum value of the $J(w,b)$
 
-updating the vales of the parameter w, b using the mathematical equation :
+updating the vales of the parameter w, b for each ieration using the mathematical equation :
 
 $$ w = w - \alpha\frac{\partial J(w,b)}{\partial w}$$
 
 $$ b = b - \alpha\frac{\partial J(w,b)}{\partial b}$$
+
+
+\alpha   is `Learning Rate` Which is Hyperparameter determins the size of the step that we need to take during each iteration in order to get minima of the cost function 
 
 
 ## `One-Hot Encoding`
