@@ -8,7 +8,9 @@
  $$f(x^{(i)}) = wx^{(i)} + b$$
  
 
- As we know that cost function $J(w,b)$ is a measure of the error between the predicted value $f(x^{i)})$ and actual value $y^{(i}) over all the training values $x^(i)}$ , $y^(i)}$
+ As we know that cost function $J(w,b)$ is a measure of the error between the predicted value $f(x^{i)})$ and actual value $y^{(i}) over all the training values $x^{(i)}$ , $y^{(i)}$
+
+ $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1}$$
 
 
 ## `One-Hot Encoding`
