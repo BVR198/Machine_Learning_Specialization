@@ -21,7 +21,7 @@ $$ w = w - \alpha\frac{\partial J(w,b)}{\partial w}$$
 $$ b = b - \alpha\frac{\partial J(w,b)}{\partial b}$$
 
 
-$$\alpha$$   is `Learning Rate` Which is Hyperparameter determins the size of the step that we need to take during each iteration in order to get minima of the cost function 
+$\alpha$   is `Learning Rate` Which is Hyperparameter determins the size of the step that we need to take during each iteration in order to get minima of the cost function 
 
 
 ## `One-Hot Encoding`
