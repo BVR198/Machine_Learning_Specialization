@@ -84,6 +84,8 @@ When we train the machine learning model with this Class Imbalance dataset, `Mod
 
 So, that is the reason for Why do we need to address the class imbalance in datasets.
 
+## `ROC`
+The ROC curve is a Graphical representation of the performance of the Binary classification problem at various threshold settings
 
 
 
