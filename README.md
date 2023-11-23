@@ -83,9 +83,9 @@ For Instance, let us consider a Binary classification problem where we need to p
 When we train the machine learning model with this Class Imbalance dataset, `Model tends to be more biased towards the majority class`. `The model may NOT perform on minority class` which leads to `Overfitting` with `High Accuracy`. 
 
 So, that is the reason for Why do we need to address the class imbalance in datasets.
-
-## `ROC`
-The ROC curve is a Graphical representation of the performance of the Binary classification problem at various threshold settings
+ 
+## `ROC curve`
+The ROC curve is a Graphical representation of the performance of the Binary classification problem at various threshold settings.it is plots `True Positive Rate`( Sensitivity ) against `False Positive Rate`( Specificity ) for different threshold values  
 
 
 
