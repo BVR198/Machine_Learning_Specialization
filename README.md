@@ -87,6 +87,13 @@ So, that is the reason for Why do we need to address the class imbalance in data
 ## `ROC curve`
 The ROC curve is a Graphical representation of the performance of the Binary classification problem at various threshold settings.it is plots `True Positive Rate`( Sensitivity ) against `False Positive Rate`( Specificity ) for different threshold values  
 
+# `Formal Names for the Sections `
+
+Materials needed for the experiments and the method required
+Experimental Section
+Experimental Method 
+Experiment
+
 
 
 
