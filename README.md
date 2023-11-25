@@ -133,9 +133,12 @@ Now, `What is the probability that the  model predicts correct positive class ?`
 
             A = Total number of Instances where the model correctly predicts positive class = True Positives (TP) = 6
             B = Total number of Actual Positive classes = True Positives (TP) + False Negatives (FN) = 10
+
+            
 $$ probability = \frac{A}{B} = \frac{6}{10} $$
 $$ or $$
 $$ Recall = Sensitivity = True Positive Rate = \frac{A}{B} = \frac{6}{10} $$
+
       
  
 ## `ROC curve`
