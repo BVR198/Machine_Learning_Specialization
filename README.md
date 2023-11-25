@@ -105,6 +105,11 @@ This confusion matrix helps in Decision Making as well. Decision making in the s
 
 `False Negative`: Number of instances where Predicted class is Negative (class 0) but the Actual class is Positive (class 1). ie. The model is Wrongly (False) Predicted the Negative class. `YES ERROR`
 
+      True Positive = 100
+      False Positive = 20
+      True Negative = 89
+      False Negative = 50
+      
  
 ## `ROC curve`
 The ROC curve is a Graphical representation of the performance of the Binary classification problem at various threshold settings.it is plots `True Positive Rate`( Sensitivity ) against `False Positive Rate`( Specificity ) for different threshold values  
