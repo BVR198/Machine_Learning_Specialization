@@ -136,13 +136,20 @@ Now, `What is the probability that the  model predicts correct positive class ?`
 
             
 $$ probability = \frac{A}{B} = \frac{6}{10} $$
+
 $$ or $$
+
 $$ Recall = Sensitivity = True Positive Rate = \frac{A}{B} = \frac{6}{10} $$
 
       
+
  
 ## `ROC curve`
 The ROC curve is a Graphical representation of the performance of the Binary classification problem at various threshold settings.it is plots `True Positive Rate`( Sensitivity ) against `False Positive Rate`( Specificity ) for different threshold values  
+
+
+
+
 
 
 
