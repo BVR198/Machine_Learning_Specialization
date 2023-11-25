@@ -89,10 +89,10 @@ It is a important tool used in the machine learning to evaluate the performance 
 This confusion matrix helps in Decision Making as well. Decision making in the sence, making an informed decisions about which model is best suite for particlar problem if we use different models. Accuracy score alone is not a good practice use for classification model evaluation. Cofusion matrix helps us in better understanding how well model is performing on each class.
 
 
-                Predicted values
+              Predicted values
                 1       0                      
 
-        1       100     50                      
+        1       100     50 
 
         0       20      89        
 
