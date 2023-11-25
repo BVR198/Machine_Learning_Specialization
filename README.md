@@ -97,6 +97,7 @@ This confusion matrix helps in Decision Making as well. Decision making in the s
         0       20      89        
 
 True Positive : It is the case where the Predicted class is Positive (class 1) as well as Actual class is Positive ( class 1). ie. The model Corectly (True) predicted the positive class. NO ERROR
+
 False Positive: It is the case where the Predicted class is Positive (class 1) but the Actual class is Negative (class 0). ie. The model is Wrongly(False) predicted the positive class. YES ERROR
 
  
