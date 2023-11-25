@@ -85,7 +85,8 @@ When we train the machine learning model with this Class Imbalance dataset, `Mod
 So, that is the reason for Why do we need to address the class imbalance in datasets.
 
 ## `Confusion Matrix`
-It is a important tool used in the machine learning to evaluate the performance of the classification model. Even though we have `accuracy_score` to evaluate the classification model, All the ML practionars uses this confusion matrix because it will gives us a comprehensive and detailed summary of how well the classification model is performing.this will gives us comprehensive and detailed summary of different types of the errors that the model is making .
+It is a important tool used in the machine learning to evaluate the performance of the classification model. Even though we have `accuracy_score` to evaluate the classification model, All the ML practitioners uses this confusion matrix because it will gives us a comprehensive and detailed summary of how well the classification model is performing.this will gives us comprehensive and detailed summary of different types of the errors that the model is making . Here the types of errors could be `False Positive ` and `False Negative`
+This confusion matrix helps in Decision Making as well. Decision making in the sence, making an informed decisions about which model is best suite for particlar problem if we use different models. Accuracy score alone is not a good practice use for classification model evaluation. Cofusion matrix helps us in better understanding how well model is performing on each class.
 
  
 ## `ROC curve`
