@@ -83,6 +83,10 @@ For Instance, let us consider a Binary classification problem where we need to p
 When we train the machine learning model with this Class Imbalance dataset, `Model tends to be more biased towards the majority class`. `The model may NOT perform on minority class` which leads to `Overfitting` with `High Accuracy`. 
 
 So, that is the reason for Why do we need to address the class imbalance in datasets.
+
+## `Confusion Matrix`
+It is a important tool used in the machine learning to evaluate the performance of the classification model. Even though we have `accuracy_score` to evaluate the classification model, All the ML practionars uses this confusion matrix because it will gives us a comprehensive and detailed summary of how well the classification model is performing.this will gives us comprehensive and detailed summary of different types of the errors that the model is making .
+
  
 ## `ROC curve`
 The ROC curve is a Graphical representation of the performance of the Binary classification problem at various threshold settings.it is plots `True Positive Rate`( Sensitivity ) against `False Positive Rate`( Specificity ) for different threshold values  
