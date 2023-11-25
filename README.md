@@ -100,7 +100,9 @@ This confusion matrix helps in Decision Making as well. Decision making in the s
 
 
 `False Positive`: It is the case where the Predicted class is Positive (class 1) but the Actual class is Negative (class 0). ie. The model is Wrongly(False) Predicted the positive class. `YES ERROR`
+
 `True Negative`: It is the case where Predicted class is Negative (class 0) as well as the Actual class is Negative (class 0). ie. The model is Correctly (True) Predicted the Negative class. `NO ERROR`
+
 `False Negative`: It is the case where Predicted class is Negative (class 0) but the Actual class is Positive (class 1). ie. The model is Wrongly (False) Predicted the Negative class. `YES ERROR`
 
  
