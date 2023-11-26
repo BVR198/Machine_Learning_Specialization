@@ -143,7 +143,9 @@ $$ or $$
 
 $$ Recall = Sensitivity = True Positive Rate = \frac{A}{B} = \frac{6}{10} $$
 
-That means, The model that we have trained for the Binary classification problem, is working 60% correct for predicting the positive class
+That means, The model that we have trained for the Binary classification problem, is working 60% correct for predicting the positive class.
+
+Key point: `Hight recall ot sensitivity or True Positive Rate indicates that the model is Good`
 
       
 
