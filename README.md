@@ -112,6 +112,8 @@ This confusion matrix helps in Decision Making as well. Decision making in the s
 
 ## Recall or Sensitivity or True Positive Rate
 
+I have a curiocity to Measure the ability of the modal to predict the correct positive class 
+
 
             predicted class           Actual positive class
                   1                             1
