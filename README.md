@@ -112,7 +112,7 @@ This confusion matrix helps in Decision Making as well. Decision making in the s
 
 ## Recall or Sensitivity or True Positive Rate
 
-I have a curiocity to Measure the ability of the modal to predict the correct positive class 
+I have a curiosity to "Measure the ability of the modal to predict the correct positive class"
 
 
             predicted class           Actual positive class
@@ -142,6 +142,8 @@ $$ probability = \frac{A}{B} = \frac{6}{10} $$
 $$ or $$
 
 $$ Recall = Sensitivity = True Positive Rate = \frac{A}{B} = \frac{6}{10} $$
+
+That means, The model that we have trained for the Binary classification problem, is working $60%$ correct for predicting the positive class
 
       
 
