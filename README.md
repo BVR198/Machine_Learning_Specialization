@@ -154,7 +154,8 @@ Key point: `Hight recall or sensitivity or True Positive Rate indicates that the
 The ROC curve is a Graphical representation of the performance of the Binary classification problem at various threshold settings.it is plots `True Positive Rate`( Sensitivity ) against `False Positive Rate`( Specificity ) for different threshold values  
 
 
-
+# Maximum Likelihood Estimation
+Maximum Likelihood Estimation is a statistical method used in Macine learning for finding the values of the parameters which maximize the likelihood function
 
 
 
