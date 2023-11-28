@@ -152,7 +152,18 @@ That means, The model that we have trained for the Binary classification problem
 
 Key point: `Hight recall or sensitivity or True Positive Rate indicates that the model is Good at predicting positive classes`
 
-      
+
+#### F1 score
+
+F1 score is hormonic mean of precision and Recall 
+
+     let ,      A = Precision 
+                B = Recall
+
+$$ \frac{1}{F1} = \frac{1}{2}[\frac{1}{A} + \frac{1}{B}] $$
+$$ \frac{1}{F1} = \frac{2(A + B)}{AB} $$
+$$ F1 = \frac{2AB}{A + B} $$
+
 
  
 ## `ROC curve`
