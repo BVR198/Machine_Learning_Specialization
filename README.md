@@ -110,7 +110,12 @@ This confusion matrix helps in Decision Making as well. Decision making in the s
       True Negative = 89
       False Negative = 50
 
-## Recall or Sensitivity or True Positive Rate
+### Precision 
+Precision for class 1 = Out of All predicted class 1 instances, How many of them are actuall class 1 
+
+Precision for class 0 = Out of All predicted class 0 instances, How many of them are actuall class 0
+
+### Recall or Sensitivity or True Positive Rate
 
 I have a curiosity to "Measure the ability of the modal to predict the correct positive class"
 
