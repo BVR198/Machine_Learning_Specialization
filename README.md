@@ -176,8 +176,9 @@ The ROC curve is a Graphical representation of the performance of the Binary cla
 Maximum Likelihood Estimation is a statistical method used in Macine learning for finding the values of the parameters which maximize the likelihood function
 
 
+# GridSearchCV
 
-
+`GridSearchCV` is a class provided by sklearn's `model_selction` module in the Python. GridSeachCV helps us to find the best hyperparameters which are allows the machine learning models to improve the performance  
 
 
 
