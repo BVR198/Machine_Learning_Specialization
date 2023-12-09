@@ -180,5 +180,10 @@ Maximum Likelihood Estimation is a statistical method used in Macine learning fo
 
 `GridSearchCV` is a class provided by sklearn's `model_selction` module in the Python. GridSeachCV helps us to find the best hyperparameters which are allows the machine learning models to improve the performance  
 
+`SELECT Category, sum(Qunatity_sold) FROM Sales_table`
+
+`WHERE Week_Number == 29`
+
+`GROUPBY Category `
 
 
