@@ -10,13 +10,13 @@ so, What I mean is that the model/computer/ machine
 Let us consider the simple problem of house price prediction to understand the linear regression easy. 
 Imagine we are trying to predict the house prices based on the several factors like:
 
-   -- Size of House
+   x1: Size of House
    
-   -- Number of Bedrooms 
+   x2: Number of Bedrooms 
    
-   -- Distancer to the city center 
+   x3:  Distancer to the city center 
    
-   -- Age of House 
+   x4: Age of House 
 
  Consider the following table consisting the labeled data from which the machines would like to learn ( Understand ) how the features effects output `House Size (sq ft)`
 
