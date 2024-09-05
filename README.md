@@ -1,7 +1,7 @@
 ## Machine-Learning-Concepts
 
 ## `Linear Regression`
-Linear Regression is fundamental supervised machine learning model used for `predicting the continues ( Numerical ) values of dependant variable` based on `relationship ( hidden patterns ) between the one or more independant and depandant variable`
+Linear Regression is fundamental supervised machine learning model used for `predicting the continues ( Numerical ) values of dependant variable` based on `relationship ( hidden patterns ) between the one or more independant variables and depandant variable`
 ## `Gradient Discent Algorithm`
 - It is an optimization algorithm used in not only Machine learning but also in the Deep learning to `minimize the error ( cost function or loss function )` associated with the  model tha we are trained. it is a technique used for finding the best model's parameters Wieghts and Biases in order to reduce ( minimize ) the cost function or loss function.
 -  ### How does this Work, I mean What is the actual work behind the Gradient Discent Algorithm ?
