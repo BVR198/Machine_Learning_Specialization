@@ -1,7 +1,7 @@
 ## Machine-Learning-Concepts
 
 ## `Linear Regression`
-Linear Regression is fundamental supervised machine learning model used for `predicting the continues ( Numerical ) values of dependant variable` based on finding the `best possible relationship ( hidden patterns ) between the one or more independant variables and depandant variable`
+Linear Regression is fundamental supervised machine learning model used for `predicting the continues ( Numerical ) values of dependant variable` based on understanding the `best possible relationship ( hidden patterns ) between the one or more independant variables and depandant variable`
 so, What I mean is that the model/computer/ machine 
    1. first looks the labeled data for best possible relationship between the independant variables and depandzant variable
    2. Predicting continues values based on its finding.
