@@ -19,17 +19,16 @@ Imagine we are trying to predict the house prices based on the several factors l
    -- Age of House 
 
  
+
+
 | House Size (sq ft) | Number of Bedrooms | Age of House (years) | Distance to City Center (miles) | House Price ($1000s) |
+|--------------------|--------------------|----------------------|---------------------------------|----------------------|
+| 2000               | 3                  | 10                   | 5                               | 300                  |
+| 1500               | 2                  | 5                    | 10                              | 200                  |
+| 2500               | 4                  | 20                   | 2                               | 400                  |
+| 1800               | 3                  | 15                   | 8                               | 250                  |
+| 2200               | 4                  | 8                    | 6                               | 350                  |
 
-| 2000 | 3 | 10 | 5 | 300
-
-| 1500 | 2 | 5 | 10 | 200
-
-| 2500 | 4 | 20 | 2 | 400
-
-| 1800 | 3 | 15 | 8 | 250
-
-| 2200 | 4 | 8 | 6 | 350  
 
    
 ## `Gradient Discent Algorithm`
