@@ -30,7 +30,7 @@ Imagine we are trying to predict the house prices based on the several factors l
 | 2200               | 4                  | 8                    | 6                               | 350                  |
 
 
-`Now, What is the price of a house that’s 3000 sq ft, has 4 bedrooms, is 10 years old, and is 5 miles from the city center? `
+#### `Now, What is the price of a house that’s 3000 sq ft, has 4 bedrooms, is 10 years old, and is 5 miles from the city center? `
 
 | House Size (sq ft) | Number of Bedrooms | Age of House (years) | Distance to City Center (miles) | House Price ($1000s) |
 |--------------------|--------------------|----------------------|---------------------------------|----------------------|
