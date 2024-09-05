@@ -30,9 +30,11 @@ Imagine we are trying to predict the house prices based on the several factors l
 | 2200               | 4                  | 8                    | 6                               | 350                  |
 
 
+Now, What is the price of a house that’s 3000 sq ft, has 4 bedrooms, is 10 years old, and is 5 miles from the city center? 
+
 | House Size (sq ft) | Number of Bedrooms | Age of House (years) | Distance to City Center (miles) | House Price ($1000s) |
 |--------------------|--------------------|----------------------|---------------------------------|----------------------|
-| 2000               | 3                  | 10                   | 5                               | 300                  |
+| 3000               | 4                  | 10                   | 5                               | What is Price ?      |
    
 ## `Gradient Discent Algorithm`
 - It is an optimization algorithm used in not only Machine learning but also in the Deep learning to `minimize the error ( cost function or loss function )` associated with the  model tha we are trained. it is a technique used for finding the best model's parameters Wieghts and Biases in order to reduce ( minimize ) the cost function or loss function.
