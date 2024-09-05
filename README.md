@@ -21,7 +21,7 @@ Imagine we are trying to predict the house prices based on the several factors l
  Consider the following table consisting the labeled data from which the machines would like to learn ( Understand ) how the features effects output `House Size (sq ft)`
 
 
-| House Size (sq ft) | Number of Bedrooms | Age of House (years) | Distance to City Center (miles) | House Size (sq ft) |
+| House Size (sq ft) | Number of Bedrooms | Age of House (years) | Distance to City Center (miles) | House Price ($1000s) |
 |--------------------|--------------------|----------------------|---------------------------------|----------------------|
 | 2000               | 3                  | 10                   | 5                               | 300                  |
 | 1500               | 2                  | 5                    | 10                              | 200                  |
@@ -32,7 +32,7 @@ Imagine we are trying to predict the house prices based on the several factors l
 
 | House Size (sq ft) | Number of Bedrooms | Age of House (years) | Distance to City Center (miles) | House Price ($1000s) |
 |--------------------|--------------------|----------------------|---------------------------------|----------------------|
-| 2000               | 3                  | 10                   | 5                               |    What is price?    |
+| 2000               | 3                  | 10                   | 5                               | 300                  |
    
 ## `Gradient Discent Algorithm`
 - It is an optimization algorithm used in not only Machine learning but also in the Deep learning to `minimize the error ( cost function or loss function )` associated with the  model tha we are trained. it is a technique used for finding the best model's parameters Wieghts and Biases in order to reduce ( minimize ) the cost function or loss function.
