@@ -14,7 +14,7 @@ Imagine we are trying to predict the house prices based on the several factors l
    
    *  Number of Bedrooms 
    
-   *  Distancer to the city center 
+   *  Distancer to the city center
    
    *  Age of House 
 
