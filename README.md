@@ -6,7 +6,7 @@ so, What I mean is that the model/computer/ machine
    1. first looks the labeled data for best possible relationship between the independant variables and depandzant variable
    2. Predicting continues values based on its finding.
 
-### `Problem Statement`: Let us consider the simple problem of house price prediction to understand the linear regression easy. 
+### `Problem Statement`### : Let us consider the simple problem of house price prediction to understand the linear regression easy. 
 Imagine we are trying to predict the house prices based on the several factors like:
 
    -- Size of House
