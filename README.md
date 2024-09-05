@@ -18,10 +18,10 @@ Imagine we are trying to predict the house prices based on the several factors l
    
    -- Age of House 
 
- 
+ Consider the following table consisting the labeled data from which the machines would like to learn ( Understand ) how the features effects output `House Size (sq ft)`
 
 
-| House Size (sq ft) | Number of Bedrooms | Age of House (years) | Distance to City Center (miles) | House Price ($1000s) |
+| House Size (sq ft) | Number of Bedrooms | Age of House (years) | Distance to City Center (miles) | House Size (sq ft) |
 |--------------------|--------------------|----------------------|---------------------------------|----------------------|
 | 2000               | 3                  | 10                   | 5                               | 300                  |
 | 1500               | 2                  | 5                    | 10                              | 200                  |
