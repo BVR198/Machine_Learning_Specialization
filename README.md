@@ -8,9 +8,13 @@ so, What I mean is that the model/computer/ machine
 
 Let us consider the simple problem of house price prediction to understand the linear regression easy. 
 Imagine we are trying to predict the house prices based on the several factors like:
+
    -- Size of House
+   
    -- Number of Bedrooms 
+   
    -- Distancer to the city center 
+   
    -- Age of House 
    
 ## `Gradient Discent Algorithm`
