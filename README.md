@@ -212,11 +212,13 @@ The ROC curve is a Graphical representation of the performance of the Binary cla
 Maximum Likelihood Estimation is a statistical method used in Macine learning for finding the values of the parameters which maximize the likelihood function
 
 
-# GridSearchCV
+## GridSearchCV
 
 `GridSearchCV` is a class provided by sklearn's `model_selction` module in the Python. GridSeachCV helps us to find the best hyperparameters which are allows the machine learning models to improve the performance  
 
-## Decision Tree Algorithm
+## `Decision Tree Algorithm`
+
+As we know that the `Linear Regression` and `Logistic Regression` are fundamental supervised mahine learning algorithms used for `regression` and `classification` respectively. Likewise, Decision tree is one of the most popular and widly used Non-parametric supervised learning algorithms `used for both regression and classification`
 
 
 
