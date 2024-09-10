@@ -221,7 +221,8 @@ Maximum Likelihood Estimation is a statistical method used in Macine learning fo
 As we know that the `Linear Regression` and `Logistic Regression` are fundamental supervised machine learning algorithms used for `regression` and `classification` respectively. Likewise, Decision tree is one of the most popular and widly used Non-parametric supervised learning algorithms `used for both regression and classification`. The name itself suggests that it is `a tree like structure` having `Root Node`, `Branches`, `Decision  Nodes / Internal Nodes`, and `Leaf Nodes`. This algorithm maked decisions(predictions) based on `splitting the features at each node`. 
 
 
-** Here, Nodes represents Feratures
+* Here, Nodes represents Feratures
+
 
 ![image](https://github.com/user-attachments/assets/8d396ea4-7dc7-4199-803c-8a575ede1117)
 
