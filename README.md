@@ -222,4 +222,7 @@ As we know that the `Linear Regression` and `Logistic Regression` are fundamenta
 
 
 
+![image](https://github.com/user-attachments/assets/8d396ea4-7dc7-4199-803c-8a575ede1117)
+
+
 
