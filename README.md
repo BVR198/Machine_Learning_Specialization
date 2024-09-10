@@ -227,5 +227,5 @@ As we know that the `Linear Regression` and `Logistic Regression` are fundamenta
 
 Now, The very first question that comes in our mind after defining the decision tree is that :
 
-`How do we build decision tree algorithm such that the machine can learn the paterns from the traing data and then makes a prediction on test data ? `
+#### `How do we build decision tree algorithm such that the machine can learn the paterns from the traing data and then makes a prediction on test data ? `
 
