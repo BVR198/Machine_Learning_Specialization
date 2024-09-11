@@ -234,3 +234,63 @@ Now, The very first question that comes to our mind after defining the decision 
 
 #### `How do we build a decision tree algorithm such that the machine can learn the patterns from the training data and then make a prediction on test data? `
 
+
+
+Can you please explain decision tree scratch with an example data set along with what happening behind the maths calculations in decision tree
+
+Coach
+Certainly! Let's walk through the process of building a decision tree from scratch using an example dataset. We'll also discuss the math calculations happening behind the scenes.
+
+Suppose we have a dataset of students with the following features: age, gender, study hours, and whether they passed the exam or not. Here's a simplified version of the dataset:
+
+Age	Gender	Study Hours	Passed Exam
+18	Male	6	Yes
+20	Female	3	No
+19	Male	5	Yes
+22	Female	4	Yes
+21	Male	2	No
+20	Female	6	Yes
+To build the decision tree, we start with the root node and select the best feature to split on. The goal is to find the feature that provides the most information gain or reduces the most uncertainty.
+
+One common measure used for this is entropy. Entropy measures the impurity or uncertainty of a set of examples. The formula for entropy is:
+
+Entropy(S) = -p(Yes) * log2(p(Yes)) - p(No) * log2(p(No))
+where p(Yes) is the fraction of examples that passed the exam and p(No) is the fraction of examples that did not pass the exam.
+
+Let's calculate the entropy for the entire dataset:
+
+p(Yes) = 4/6 = 0.67
+p(No) = 2/6 = 0.33
+
+Entropy(S) = -0.67 * log2(0.67) - 0.33 * log2(0.33) ≈ 0.92
+Now, we need to calculate the information gain for each feature. Information gain measures how much the entropy decreases after splitting on a particular feature.
+
+Let's calculate the information gain for the "Age" feature:
+
+To calculate the entropy for each age group, we split the dataset based on age and calculate the entropy for each subset.
+
+For age <= 19:
+
+Examples: 18 (Yes), 19 (Yes)
+p(Yes) = 2/2 = 1.0, p(No) = 0/2 = 0.0
+Entropy = -1.0 log2(1.0) - 0.0 log2(0.0) = 0.0
+For age > 19:
+
+Examples: 20 (No), 22 (Yes), 21 (No)
+p(Yes) = 1/3 ≈ 0.33, p(No) = 2/3 ≈ 0.67
+Entropy = -0.33 log2(0.33) - 0.67 log2(0.67) ≈ 0.92
+Next, we calculate the weighted average entropy for the "Age" feature:
+
+Weighted Average Entropy(Age) = (2/6) * 0.0 + (4/6) * 0.92 ≈ 0.61
+We repeat this process for each feature (Gender and Study Hours) and calculate their respective weighted average entropies.
+
+Finally, we select the feature with the highest information gain as the next node in the decision tree. In this case, let's say "Study Hours" has the highest information gain.
+
+We continue this process recursively, splitting the dataset based on the selected feature and calculating entropies and information gains until we reach leaf nodes with pure classes (all examples belong to the same class) or other stopping criteria.
+
+This is a simplified explanation of how a decision tree is built from scratch. In practice, there are variations and optimizations, such as pruning to prevent overfitting and handling missing values.
+
+I hope this explanation helps you understand the process behind building a decision tree and the math calculations involved. Let me know if you have any further questions!
+
+And if you want to continue exploring this topic, try one of these follow-up questions:
+
