@@ -225,11 +225,9 @@ The `Linear Regression` and `Logistic Regression` are fundamental supervised mac
 * Branches represent Decision rule
 * Leaf Nodes represent the output class / the class label
 
-### `The decision tree algorithm learns from the data and makes decisions(predictions) by splitting the data based on the values of the features`. 
-
-
-
 ![image](https://github.com/user-attachments/assets/8d396ea4-7dc7-4199-803c-8a575ede1117)
+
+### `The decision tree algorithm learns from the data and makes decisions(predictions) by splitting the data based on the values of the features`. 
 
 
 Now, The very first question that comes to our mind after defining the decision tree is this:
