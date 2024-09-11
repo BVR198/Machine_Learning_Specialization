@@ -209,21 +209,22 @@ The ROC curve is a Graphical representation of the performance of the Binary cla
 
 
 # Maximum Likelihood Estimation
-Maximum Likelihood Estimation is a statistical method used in Machine learning for finding the values of the parameters that maximize the likelihood function
+Maximum Likelihood Estimation is a statistical method used in Machine learning to find the values of the parameters that maximize the likelihood function
 
 
 ## GridSearchCV
 
-`GridSearchCV` is a class provided by sklearn's `model_selction` module in Python. GridSeachCV helps us to find the best hyperparameters which allow the machine learning models to improve the performance  
+`GridSearchCV` is a class provided by sklearn's `model_selction` module in Python. GridSeachCV helps us to find the best hyperparameters that allow the machine learning models to improve the performance  
 
 ## `Decision Tree Algorithm`
 
-As we know that the `Linear Regression` and `Logistic Regression` are fundamental supervised machine learning algorithms used for `regression` and `classification` respectively. Likewise, a Decision tree is one of the most popular and widly used Non-parametric supervised learning algorithms `used for both regression and classification`. The name itself suggests that it is a tree like structure` having `Root Node`, `Branches`, `Decision  Nodes / Internal Nodes`, and `Leaf Nodes`. This algorithm maked decisions(predictions) based on `splitting the features at each node`. 
+The `Linear Regression` and `Logistic Regression` are fundamental supervised machine learning algorithms used for `regression` and `classification` respectively. Likewise, a Decision tree is one of the most popular and widly used Non-parametric supervised learning algorithms `used for both regression and classification`. The name itself suggests that it is a tree-like structure with `Root Node`, `Branches`, `Decision  Nodes / Internal Nodes`, and `Leaf Nodes`.
 
+* Nodes represent Features
+* Branches represent Decision rule
+* Leaf Nodes represent the output class / the class label
 
-* Nodes represents Features
-* Branches represents Decision rule
-* Leaf Nodes represnts output class 
+The decision tree algorithm learns from data and makes decisions(predictions) by `splitting the data based on the values of the features`
 
 
 ![image](https://github.com/user-attachments/assets/8d396ea4-7dc7-4199-803c-8a575ede1117)
