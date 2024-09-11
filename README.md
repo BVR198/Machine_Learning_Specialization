@@ -147,7 +147,7 @@ This confusion matrix helps in Decision Making as well. Decision-making in the s
       False Negative = 50
 
 #### `Precision`
-Precision for class 1 = Out of All predicted class 1 instance, How many of them are actually class 1 
+Precision for class 1 = Out of All predicted class 1 instances, How many of them are actually class 1 
 
 Precision for class 0 = Out of All predicted class 0 instances, How many of them are actually class 0
 
@@ -184,14 +184,14 @@ $$ or $$
 
 $$ Recall = Sensitivity = True Positive Rate = \frac{A}{B} = \frac{6}{10} $$
 
-That means, The model that we have trained for the Binary classification problem, is working 60% correct for predicting the positive class.
+That means, The model that we have trained for the Binary classification problem, is working 60% correctly for predicting the positive class.
 
 Key point: `Hight recall or sensitivity or True Positive Rate indicates that the model is Good at predicting positive classes`
 
 
 #### F1 score
 
-F1 score is harmonic mean of precision and Recall 
+F1 score is the harmonic mean of precision and Recall 
 
      let ,      A = Precision 
                 B = Recall
@@ -218,7 +218,7 @@ Maximum Likelihood Estimation is a statistical method used in Machine learning f
 
 ## `Decision Tree Algorithm`
 
-As we know that the `Linear Regression` and `Logistic Regression` are fundamental supervised machine learning algorithms used for `regression` and `classification` respectively. Likewise, a Decision tree is one of the most popular and widly used Non-parametric supervised learning algorithms `used for both regression and classification`. The name itself suggests that it is `a tree like structure` having `Root Node`, `Branches`, `Decision  Nodes / Internal Nodes`, and `Leaf Nodes`. This algorithm maked decisions(predictions) based on `splitting the features at each node`. 
+As we know that the `Linear Regression` and `Logistic Regression` are fundamental supervised machine learning algorithms used for `regression` and `classification` respectively. Likewise, a Decision tree is one of the most popular and widly used Non-parametric supervised learning algorithms `used for both regression and classification`. The name itself suggests that it is a tree like structure` having `Root Node`, `Branches`, `Decision  Nodes / Internal Nodes`, and `Leaf Nodes`. This algorithm maked decisions(predictions) based on `splitting the features at each node`. 
 
 
 * Nodes represents Features
@@ -229,7 +229,7 @@ As we know that the `Linear Regression` and `Logistic Regression` are fundamenta
 ![image](https://github.com/user-attachments/assets/8d396ea4-7dc7-4199-803c-8a575ede1117)
 
 
-Now, The very first question that comes in our mind after defining the decision tree is that :
+Now, The very first question that comes to our mind after defining the decision tree is this:
 
-#### `How do we build decision tree algorithm such that the machine can learn the patterns from the training data and then makes a prediction on test data ? `
+#### `How do we build a decision tree algorithm such that the machine can learn the patterns from the training data and then make a prediction on test data? `
 
